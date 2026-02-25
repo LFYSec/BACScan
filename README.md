@@ -1,6 +1,6 @@
 # BACScan
 
-Coming soon (around 2026.2, been too busy lately)
+Coming soon (around 2026.3, been too busy lately)
 
 ## Description
 The source code of *[CCS'25] BACScan: Automatic Black-Box Detection of Broken-Access-Control Vulnerabilities in Web Applications*
