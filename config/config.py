@@ -1,6 +1,5 @@
 ﻿import os
 
-# 甯哥敤閰嶇疆閫夐」
 SUPPORTED_CMS = [
     "newbee_mall",
     "xmall",
