@@ -1,0 +1,82 @@
+{
+    "ifi0fChtBI": [
+        {
+            "INSERT": "USER|POST|http://10.176.36.21:5231/api/memo|b:content,resourceidlist,visibility|bv:visibility=PRIVATE|ct:json"
+        },
+        {
+            "INSERT": "USER|POST|http://10.176.36.21:5231/api/memo|b:content,resourceidlist,visibility|bv:visibility=PRIVATE|ct:json"
+        }
+    ],
+    "4I809rnk2I": [
+        {
+            "INSERT": "USER|POST|http://10.176.36.21:5231/api/shortcut|b:payload,title|ct:json"
+        }
+    ],
+    "AHEPUIgAFF": [
+        {
+            "UPDATE": "USER|PATCH|http://10.176.36.21:5231/api/shortcut/{id}|b:id,payload,title|ct:json"
+        }
+    ],
+    "OJ5uGmVtUo": [
+        {
+            "UPDATE": "USER|PATCH|http://10.176.36.21:5231/api/user/{id}|b:id,username|ct:json"
+        },
+        {
+            "UPDATE": "USER|PATCH|http://10.176.36.21:5231/api/user/{id}|b:id,username|ct:json"
+        },
+        {
+            "UPDATE": "USER|PATCH|http://10.176.36.21:5231/api/user/{id}|b:id,username|ct:json"
+        },
+        {
+            "UPDATE": "USER|PATCH|http://10.176.36.21:5231/api/user/{id}|b:id,username|ct:json"
+        },
+        {
+            "UPDATE": "USER|PATCH|http://10.176.36.21:5231/api/user/{id}|b:id,username|ct:json"
+        },
+        {
+            "UPDATE": "USER|PATCH|http://10.176.36.21:5231/api/user/{id}|b:id,username|ct:json"
+        }
+    ],
+    "null": [
+        {
+            "DELETE": "USER|DELETE|http://10.176.36.21:5231/api/shortcut/{id}"
+        },
+        {
+            "DELETE": "ADMIN|DELETE|http://10.176.36.21:5231/api/shortcut/{id}"
+        }
+    ],
+    "hKoZzqwjbk": [
+        {
+            "INSERT": "ADMIN|POST|http://10.176.36.21:5231/api/memo|b:content,resourceidlist,visibility|bv:visibility=PROTECTED|ct:json"
+        },
+        {
+            "INSERT": "ADMIN|POST|http://10.176.36.21:5231/api/memo|b:content,resourceidlist,visibility|bv:visibility=PROTECTED|ct:json"
+        }
+    ],
+    "T5dxip9JmW": [
+        {
+            "INSERT": "ADMIN|POST|http://10.176.36.21:5231/api/shortcut|b:payload,title|ct:json"
+        }
+    ],
+    "mzEgixJlOZ": [
+        {
+            "UPDATE": "ADMIN|PATCH|http://10.176.36.21:5231/api/shortcut/{id}|b:id,payload,title|ct:json"
+        }
+    ],
+    "ampMhkNoQl": [
+        {
+            "INSERT": "ADMIN|POST|http://10.176.36.21:5231/api/memo|b:content,resourceidlist,visibility|bv:visibility=PRIVATE|ct:json"
+        },
+        {
+            "INSERT": "ADMIN|POST|http://10.176.36.21:5231/api/memo|b:content,resourceidlist,visibility|bv:visibility=PRIVATE|ct:json"
+        }
+    ],
+    "qfAQUpAfJg": [
+        {
+            "UPDATE": "ADMIN|PATCH|http://10.176.36.21:5231/api/memo/{id}|b:content,id,resourceidlist,visibility|bv:visibility=PRIVATE|ct:json"
+        },
+        {
+            "UPDATE": "ADMIN|PATCH|http://10.176.36.21:5231/api/memo/{id}|b:content,id,resourceidlist,visibility|bv:visibility=PRIVATE|ct:json"
+        }
+    ]
+}

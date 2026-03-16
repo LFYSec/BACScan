@@ -1,0 +1,4957 @@
+{
+    "VISITOR|GET|http://10.176.36.21:5231/": [
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "VISITOR|GET|http://10.176.36.21:5231/api/status": [
+        {
+            "method": "GET",
+            "path": "/api/status",
+            "path_ids": [],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "VISITOR|GET|http://10.176.36.21:5231/api/user/me": [
+        {
+            "method": "GET",
+            "path": "/api/user/me",
+            "path_ids": [],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "VISITOR|GET|http://10.176.36.21:5231/api/memo/all": [
+        {
+            "method": "GET",
+            "path": "/api/memo/all",
+            "path_ids": [],
+            "query": {
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo/all",
+            "path_ids": [],
+            "query": {
+                "offset": [
+                    "30"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo/all",
+            "path_ids": [],
+            "query": {
+                "offset": [
+                    "60"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "VISITOR|GET|http://10.176.36.21:5231/u/{id}": [
+        {
+            "method": "GET",
+            "path": "/u/1",
+            "path_ids": [
+                "1"
+            ],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "VISITOR|GET|http://10.176.36.21:5231/auth": [
+        {
+            "method": "GET",
+            "path": "/auth",
+            "path_ids": [],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "VISITOR|GET|http://10.176.36.21:5231/explore": [
+        {
+            "method": "GET",
+            "path": "/explore",
+            "path_ids": [],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "VISITOR|GET|http://10.176.36.21:5231/api/user/{id}": [
+        {
+            "method": "GET",
+            "path": "/api/user/1",
+            "path_ids": [
+                "1"
+            ],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "VISITOR|GET|http://10.176.36.21:5231/api/memo/stats|q:creatorid": [
+        {
+            "method": "GET",
+            "path": "/api/memo/stats",
+            "path_ids": [],
+            "query": {
+                "creatorId": [
+                    "1"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "VISITOR|GET|http://10.176.36.21:5231/api/memo|q:creatorid,rowstatus": [
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "creatorId": [
+                    "1"
+                ],
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "creatorId": [
+                    "1"
+                ],
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "30"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "creatorId": [
+                    "1"
+                ],
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "60"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "creatorId": [
+                    "1"
+                ],
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "90"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "creatorId": [
+                    "1"
+                ],
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "120"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "creatorId": [
+                    "1"
+                ],
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "150"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "creatorId": [
+                    "1"
+                ],
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "180"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "creatorId": [
+                    "1"
+                ],
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "210"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "creatorId": [
+                    "1"
+                ],
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "240"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "creatorId": [
+                    "1"
+                ],
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "270"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "creatorId": [
+                    "1"
+                ],
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "296"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "VISITOR|POST|http://10.176.36.21:5231/api/auth/signin|b:password,username|ct:json": [
+        {
+            "method": "POST",
+            "path": "/api/auth/signin",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "username": "admin",
+                "password": "admin"
+            },
+            "body_kind": "json"
+        }
+    ],
+    "VISITOR|GET|http://10.176.36.21:5231/api/auth/signin": [
+        {
+            "method": "GET",
+            "path": "/api/auth/signin",
+            "path_ids": [],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "VISITOR|GET|http://10.176.36.21:5231/u/{id}|q:type|qv:type=LINKED": [
+        {
+            "method": "GET",
+            "path": "/u/1",
+            "path_ids": [
+                "1"
+            ],
+            "query": {
+                "type": [
+                    "LINKED"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "VISITOR|GET|http://10.176.36.21:5231/u/{id}|q:tag": [
+        {
+            "method": "GET",
+            "path": "/u/1",
+            "path_ids": [
+                "1"
+            ],
+            "query": {
+                "tag": [
+                    "L6kIrUX4vU"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/u/1",
+            "path_ids": [
+                "1"
+            ],
+            "query": {
+                "tag": [
+                    "tWsydnwFvm"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/u/1",
+            "path_ids": [
+                "1"
+            ],
+            "query": {
+                "tag": [
+                    "irVGKyLQKB"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/u/1",
+            "path_ids": [
+                "1"
+            ],
+            "query": {
+                "tag": [
+                    "LP9e8pprum"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "VISITOR|GET|http://10.176.36.21:5231/u/{id}|q:text": [
+        {
+            "method": "GET",
+            "path": "/u/1",
+            "path_ids": [
+                "1"
+            ],
+            "query": {
+                "text": [
+                    "admin"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "VISITOR|GET|http://10.176.36.21:5231/u/{id}|q:type|qv:type=NOT_TAGGED": [
+        {
+            "method": "GET",
+            "path": "/u/1",
+            "path_ids": [
+                "1"
+            ],
+            "query": {
+                "type": [
+                    "NOT_TAGGED"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "USER|GET|http://10.176.36.21:5231/": [
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "USER|GET|http://10.176.36.21:5231/api/status": [
+        {
+            "method": "GET",
+            "path": "/api/status",
+            "path_ids": [],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "USER|GET|http://10.176.36.21:5231/api/user/me": [
+        {
+            "method": "GET",
+            "path": "/api/user/me",
+            "path_ids": [],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "USER|GET|http://10.176.36.21:5231/api/memo/stats|q:creatorid": [
+        {
+            "method": "GET",
+            "path": "/api/memo/stats",
+            "path_ids": [],
+            "query": {
+                "creatorId": [
+                    "3"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo/stats",
+            "path_ids": [],
+            "query": {
+                "creatorId": [
+                    "2"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "USER|GET|http://10.176.36.21:5231/api/shortcut": [
+        {
+            "method": "GET",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "USER|GET|http://10.176.36.21:5231/api/tag": [
+        {
+            "method": "GET",
+            "path": "/api/tag",
+            "path_ids": [],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "USER|GET|http://10.176.36.21:5231/api/memo|q:rowstatus": [
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "9"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "ARCHIVED"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "11"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "17"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "19"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "USER|GET|http://10.176.36.21:5231/api/resource": [
+        {
+            "method": "GET",
+            "path": "/api/resource",
+            "path_ids": [],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "USER|GET|http://10.176.36.21:5231/api/tag/suggestion": [
+        {
+            "method": "GET",
+            "path": "/api/tag/suggestion",
+            "path_ids": [],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "USER|POST|http://10.176.36.21:5231/api/memo|b:content,resourceidlist,visibility|bv:visibility=PRIVATE|ct:json": [
+        {
+            "method": "POST",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "content": "admin\n- [ ] \n```\n\n```",
+                "visibility": "PRIVATE",
+                "resourceIdList": []
+            },
+            "body_kind": "json"
+        }
+    ],
+    "USER|POST|http://10.176.36.21:5231/api/shortcut|b:payload,title|ct:json": [
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_36249",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_26536",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_94337",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_33482",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_58701",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_10735",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_4163",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_87433",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_37463",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_33841",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_14307",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_36013",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_26058",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_51052",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_39536",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_31419",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_12611",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_78817",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_82956",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_3314",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_994",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_9412",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_26482",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_68707",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_94920",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_53443",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_43461",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        }
+    ],
+    "USER|PATCH|http://10.176.36.21:5231/api/shortcut/{id}|b:id,payload,title|ct:json": [
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/207",
+            "path_ids": [
+                "207"
+            ],
+            "query": {},
+            "body": {
+                "id": 207,
+                "title": "test_title_49689",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/221",
+            "path_ids": [
+                "221"
+            ],
+            "query": {},
+            "body": {
+                "id": 221,
+                "title": "test_title_68442",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/221",
+            "path_ids": [
+                "221"
+            ],
+            "query": {},
+            "body": {
+                "id": 221,
+                "title": "test_title_29716",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/221",
+            "path_ids": [
+                "221"
+            ],
+            "query": {},
+            "body": {
+                "id": 221,
+                "title": "test_title_14340",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/221",
+            "path_ids": [
+                "221"
+            ],
+            "query": {},
+            "body": {
+                "id": 221,
+                "title": "test_title_82306",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/220",
+            "path_ids": [
+                "220"
+            ],
+            "query": {},
+            "body": {
+                "id": 220,
+                "title": "test_title_94599",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/220",
+            "path_ids": [
+                "220"
+            ],
+            "query": {},
+            "body": {
+                "id": 220,
+                "title": "test_title_97529",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/220",
+            "path_ids": [
+                "220"
+            ],
+            "query": {},
+            "body": {
+                "id": 220,
+                "title": "test_title_90341",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/220",
+            "path_ids": [
+                "220"
+            ],
+            "query": {},
+            "body": {
+                "id": 220,
+                "title": "test_title_38273",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/215",
+            "path_ids": [
+                "215"
+            ],
+            "query": {},
+            "body": {
+                "id": 215,
+                "title": "test_title_20775",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/215",
+            "path_ids": [
+                "215"
+            ],
+            "query": {},
+            "body": {
+                "id": 215,
+                "title": "test_title_37092",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/215",
+            "path_ids": [
+                "215"
+            ],
+            "query": {},
+            "body": {
+                "id": 215,
+                "title": "test_title_24449",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/215",
+            "path_ids": [
+                "215"
+            ],
+            "query": {},
+            "body": {
+                "id": 215,
+                "title": "test_title_54717",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/214",
+            "path_ids": [
+                "214"
+            ],
+            "query": {},
+            "body": {
+                "id": 214,
+                "title": "test_title_14100",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/214",
+            "path_ids": [
+                "214"
+            ],
+            "query": {},
+            "body": {
+                "id": 214,
+                "title": "test_title_76018",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/214",
+            "path_ids": [
+                "214"
+            ],
+            "query": {},
+            "body": {
+                "id": 214,
+                "title": "test_title_75328",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/214",
+            "path_ids": [
+                "214"
+            ],
+            "query": {},
+            "body": {
+                "id": 214,
+                "title": "test_title_24164",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/221",
+            "path_ids": [
+                "221"
+            ],
+            "query": {},
+            "body": {
+                "id": 221,
+                "title": "test_title_35081",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/220",
+            "path_ids": [
+                "220"
+            ],
+            "query": {},
+            "body": {
+                "id": 220,
+                "title": "test_title_48626",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/215",
+            "path_ids": [
+                "215"
+            ],
+            "query": {},
+            "body": {
+                "id": 215,
+                "title": "test_title_14417",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/214",
+            "path_ids": [
+                "214"
+            ],
+            "query": {},
+            "body": {
+                "id": 214,
+                "title": "test_title_89058",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/221",
+            "path_ids": [
+                "221"
+            ],
+            "query": {},
+            "body": {
+                "id": 221,
+                "title": "test_title_37951",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/220",
+            "path_ids": [
+                "220"
+            ],
+            "query": {},
+            "body": {
+                "id": 220,
+                "title": "test_title_47641",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/221",
+            "path_ids": [
+                "221"
+            ],
+            "query": {},
+            "body": {
+                "id": 221,
+                "title": "test_title_55692",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/221",
+            "path_ids": [
+                "221"
+            ],
+            "query": {},
+            "body": {
+                "id": 221,
+                "title": "test_title_70981",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/221",
+            "path_ids": [
+                "221"
+            ],
+            "query": {},
+            "body": {
+                "id": 221,
+                "title": "test_title_70608",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/221",
+            "path_ids": [
+                "221"
+            ],
+            "query": {},
+            "body": {
+                "id": 221,
+                "title": "test_title_66870",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/221",
+            "path_ids": [
+                "221"
+            ],
+            "query": {},
+            "body": {
+                "id": 221,
+                "title": "test_title_15057",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/221",
+            "path_ids": [
+                "221"
+            ],
+            "query": {},
+            "body": {
+                "id": 221,
+                "title": "test_title_79280",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/215",
+            "path_ids": [
+                "215"
+            ],
+            "query": {},
+            "body": {
+                "id": 215,
+                "title": "test_title_50615",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/220",
+            "path_ids": [
+                "220"
+            ],
+            "query": {},
+            "body": {
+                "id": 220,
+                "title": "test_title_74376",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/220",
+            "path_ids": [
+                "220"
+            ],
+            "query": {},
+            "body": {
+                "id": 220,
+                "title": "test_title_40625",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/220",
+            "path_ids": [
+                "220"
+            ],
+            "query": {},
+            "body": {
+                "id": 220,
+                "title": "test_title_51790",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/220",
+            "path_ids": [
+                "220"
+            ],
+            "query": {},
+            "body": {
+                "id": 220,
+                "title": "test_title_4882",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/220",
+            "path_ids": [
+                "220"
+            ],
+            "query": {},
+            "body": {
+                "id": 220,
+                "title": "test_title_83416",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/220",
+            "path_ids": [
+                "220"
+            ],
+            "query": {},
+            "body": {
+                "id": 220,
+                "title": "test_title_52663",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/214",
+            "path_ids": [
+                "214"
+            ],
+            "query": {},
+            "body": {
+                "id": 214,
+                "title": "test_title_55721",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/215",
+            "path_ids": [
+                "215"
+            ],
+            "query": {},
+            "body": {
+                "id": 215,
+                "title": "test_title_33436",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/215",
+            "path_ids": [
+                "215"
+            ],
+            "query": {},
+            "body": {
+                "id": 215,
+                "title": "test_title_3589",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/215",
+            "path_ids": [
+                "215"
+            ],
+            "query": {},
+            "body": {
+                "id": 215,
+                "title": "test_title_8879",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/215",
+            "path_ids": [
+                "215"
+            ],
+            "query": {},
+            "body": {
+                "id": 215,
+                "title": "test_title_58434",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/215",
+            "path_ids": [
+                "215"
+            ],
+            "query": {},
+            "body": {
+                "id": 215,
+                "title": "test_title_82753",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/215",
+            "path_ids": [
+                "215"
+            ],
+            "query": {},
+            "body": {
+                "id": 215,
+                "title": "test_title_38630",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/214",
+            "path_ids": [
+                "214"
+            ],
+            "query": {},
+            "body": {
+                "id": 214,
+                "title": "test_title_36748",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/214",
+            "path_ids": [
+                "214"
+            ],
+            "query": {},
+            "body": {
+                "id": 214,
+                "title": "test_title_78658",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/214",
+            "path_ids": [
+                "214"
+            ],
+            "query": {},
+            "body": {
+                "id": 214,
+                "title": "test_title_89973",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/214",
+            "path_ids": [
+                "214"
+            ],
+            "query": {},
+            "body": {
+                "id": 214,
+                "title": "test_title_28246",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/214",
+            "path_ids": [
+                "214"
+            ],
+            "query": {},
+            "body": {
+                "id": 214,
+                "title": "test_title_55716",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/214",
+            "path_ids": [
+                "214"
+            ],
+            "query": {},
+            "body": {
+                "id": 214,
+                "title": "test_title_86577",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        }
+    ],
+    "USER|PATCH|http://10.176.36.21:5231/api/user/{id}|b:email,id,nickname,username|ct:json": [
+        {
+            "method": "PATCH",
+            "path": "/api/user/3",
+            "path_ids": [
+                "3"
+            ],
+            "query": {},
+            "body": {
+                "id": 3,
+                "nickname": "BACScan@test.com",
+                "username": "BACScan@test.com",
+                "email": "BACScan@test.com"
+            },
+            "body_kind": "json"
+        }
+    ],
+    "USER|PATCH|http://10.176.36.21:5231/api/user/{id}|b:id,password|ct:json": [
+        {
+            "method": "PATCH",
+            "path": "/api/user/3",
+            "path_ids": [
+                "3"
+            ],
+            "query": {},
+            "body": {
+                "id": 3,
+                "password": "admin"
+            },
+            "body_kind": "json"
+        }
+    ],
+    "USER|PATCH|http://10.176.36.21:5231/api/shortcut/{id}|b:id,rowstatus|ct:json": [
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/207",
+            "path_ids": [
+                "207"
+            ],
+            "query": {},
+            "body": {
+                "id": 207,
+                "rowStatus": "ARCHIVED"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/218",
+            "path_ids": [
+                "218"
+            ],
+            "query": {},
+            "body": {
+                "id": 218,
+                "rowStatus": "NORMAL"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/215",
+            "path_ids": [
+                "215"
+            ],
+            "query": {},
+            "body": {
+                "id": 215,
+                "rowStatus": "ARCHIVED"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/214",
+            "path_ids": [
+                "214"
+            ],
+            "query": {},
+            "body": {
+                "id": 214,
+                "rowStatus": "ARCHIVED"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/221",
+            "path_ids": [
+                "221"
+            ],
+            "query": {},
+            "body": {
+                "id": 221,
+                "rowStatus": "ARCHIVED"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/220",
+            "path_ids": [
+                "220"
+            ],
+            "query": {},
+            "body": {
+                "id": 220,
+                "rowStatus": "ARCHIVED"
+            },
+            "body_kind": "json"
+        }
+    ],
+    "USER|DELETE|http://10.176.36.21:5231/api/shortcut/{id}": [
+        {
+            "method": "DELETE",
+            "path": "/api/shortcut/221",
+            "path_ids": [
+                "221"
+            ],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "DELETE",
+            "path": "/api/shortcut/220",
+            "path_ids": [
+                "220"
+            ],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "USER|GET|http://10.176.36.21:5231/|q:tag": [
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "tag": [
+                    "12asdasdx12d1"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "tag": [
+                    "asa"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "USER|GET|http://10.176.36.21:5231/explore": [
+        {
+            "method": "GET",
+            "path": "/explore",
+            "path_ids": [],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "USER|GET|http://10.176.36.21:5231/|q:type|qv:type=LINKED": [
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "type": [
+                    "LINKED"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "USER|GET|http://10.176.36.21:5231/api/memo": [
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "USER|GET|http://10.176.36.21:5231/|q:text": [
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "text": [
+                    "admin"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "USER|GET|http://10.176.36.21:5231/|q:type|qv:type=NOT_TAGGED": [
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "type": [
+                    "NOT_TAGGED"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "USER|GET|http://10.176.36.21:5231/|q:shortcutid": [
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "shortcutId": [
+                    "197"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "shortcutId": [
+                    "206"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "USER|GET|http://10.176.36.21:5231/api/user/{id}": [
+        {
+            "method": "GET",
+            "path": "/api/user/3",
+            "path_ids": [
+                "3"
+            ],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/user/2",
+            "path_ids": [
+                "2"
+            ],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "USER|GET|http://10.176.36.21:5231/api/memo/all": [
+        {
+            "method": "GET",
+            "path": "/api/memo/all",
+            "path_ids": [],
+            "query": {
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo/all",
+            "path_ids": [],
+            "query": {
+                "offset": [
+                    "30"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo/all",
+            "path_ids": [],
+            "query": {
+                "offset": [
+                    "60"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "USER|GET|http://10.176.36.21:5231/u/{id}": [
+        {
+            "method": "GET",
+            "path": "/u/2",
+            "path_ids": [
+                "2"
+            ],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/u/3",
+            "path_ids": [
+                "3"
+            ],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "USER|GET|http://10.176.36.21:5231/api/memo|q:creatorid,rowstatus": [
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "creatorId": [
+                    "2"
+                ],
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "creatorId": [
+                    "3"
+                ],
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "creatorId": [
+                    "3"
+                ],
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "2"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "USER|GET|http://10.176.36.21:5231/|q:shortcutid,text": [
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "text": [
+                    "admin"
+                ],
+                "shortcutId": [
+                    "197"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "text": [
+                    "admin"
+                ],
+                "shortcutId": [
+                    "214"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "USER|GET|http://10.176.36.21:5231/|q:text,type|qv:type=LINKED": [
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "type": [
+                    "LINKED"
+                ],
+                "text": [
+                    "admin"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "USER|GET|http://10.176.36.21:5231/|q:tag,text": [
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "tag": [
+                    "asa"
+                ],
+                "text": [
+                    "admin"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "USER|GET|http://10.176.36.21:5231/|q:text,type|qv:type=NOT_TAGGED": [
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "type": [
+                    "NOT_TAGGED"
+                ],
+                "text": [
+                    "admin"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "USER|GET|http://10.176.36.21:5231/|q:tag,type|qv:type=NOT_TAGGED": [
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "tag": [
+                    "12asdasdx12d1"
+                ],
+                "type": [
+                    "NOT_TAGGED"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "tag": [
+                    "asa"
+                ],
+                "type": [
+                    "NOT_TAGGED"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "USER|GET|http://10.176.36.21:5231/|q:tag,type|qv:type=LINKED": [
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "tag": [
+                    "12asdasdx12d1"
+                ],
+                "type": [
+                    "LINKED"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "tag": [
+                    "asa"
+                ],
+                "type": [
+                    "LINKED"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "USER|GET|http://10.176.36.21:5231/|q:shortcutid,tag": [
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "tag": [
+                    "12asdasdx12d1"
+                ],
+                "shortcutId": [
+                    "187"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "tag": [
+                    "asa"
+                ],
+                "shortcutId": [
+                    "220"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "USER|GET|http://10.176.36.21:5231/|q:shortcutid,type|qv:type=LINKED": [
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "type": [
+                    "LINKED"
+                ],
+                "shortcutId": [
+                    "197"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "type": [
+                    "LINKED"
+                ],
+                "shortcutId": [
+                    "207"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|GET|http://10.176.36.21:5231/": [
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|GET|http://10.176.36.21:5231/api/status": [
+        {
+            "method": "GET",
+            "path": "/api/status",
+            "path_ids": [],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|GET|http://10.176.36.21:5231/api/user/me": [
+        {
+            "method": "GET",
+            "path": "/api/user/me",
+            "path_ids": [],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|GET|http://10.176.36.21:5231/api/memo/stats|q:creatorid": [
+        {
+            "method": "GET",
+            "path": "/api/memo/stats",
+            "path_ids": [],
+            "query": {
+                "creatorId": [
+                    "1"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo/stats",
+            "path_ids": [],
+            "query": {
+                "creatorId": [
+                    "2"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|GET|http://10.176.36.21:5231/api/shortcut": [
+        {
+            "method": "GET",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|GET|http://10.176.36.21:5231/api/tag": [
+        {
+            "method": "GET",
+            "path": "/api/tag",
+            "path_ids": [],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|GET|http://10.176.36.21:5231/api/memo|q:rowstatus": [
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "ARCHIVED"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "30"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "60"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "90"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "89"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "119"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "118"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "147"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "176"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "205"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "120"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "234"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "150"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "263"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "292"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "321"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "350"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "379"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "408"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "437"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "466"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "495"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "524"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "553"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "582"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "611"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "612"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "180"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "210"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "240"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "270"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "300"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "330"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "360"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "390"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "420"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "450"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "480"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "510"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "540"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "570"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "600"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "613"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "149"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "178"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "207"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "236"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "265"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "294"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "323"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "352"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "381"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "410"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "439"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "468"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "497"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "526"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "555"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "584"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "622"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "offset": [
+                    "623"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|GET|http://10.176.36.21:5231/api/resource": [
+        {
+            "method": "GET",
+            "path": "/api/resource",
+            "path_ids": [],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|GET|http://10.176.36.21:5231/api/tag/suggestion": [
+        {
+            "method": "GET",
+            "path": "/api/tag/suggestion",
+            "path_ids": [],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|POST|http://10.176.36.21:5231/api/memo|b:content,resourceidlist,visibility|bv:visibility=PROTECTED|ct:json": [
+        {
+            "method": "POST",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "content": "admin\n- [ ] \n```\n\n```",
+                "visibility": "PROTECTED",
+                "resourceIdList": []
+            },
+            "body_kind": "json"
+        }
+    ],
+    "ADMIN|POST|http://10.176.36.21:5231/api/shortcut|b:payload,title|ct:json": [
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_97717",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_29979",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_98754",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_9573",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_69277",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_619",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_66832",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_84393",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_90459",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_9820",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_50376",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_58711",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_5861",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_96304",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_53419",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_46520",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_15895",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "POST",
+            "path": "/api/shortcut",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "title": "test_title_79208",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        }
+    ],
+    "ADMIN|PATCH|http://10.176.36.21:5231/api/shortcut/{id}|b:id,payload,title|ct:json": [
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/216",
+            "path_ids": [
+                "216"
+            ],
+            "query": {},
+            "body": {
+                "id": 216,
+                "title": "test_title_62449",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/209",
+            "path_ids": [
+                "209"
+            ],
+            "query": {},
+            "body": {
+                "id": 209,
+                "title": "test_title_82320",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/222",
+            "path_ids": [
+                "222"
+            ],
+            "query": {},
+            "body": {
+                "id": 222,
+                "title": "test_title_33507",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/222",
+            "path_ids": [
+                "222"
+            ],
+            "query": {},
+            "body": {
+                "id": 222,
+                "title": "test_title_30850",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/222",
+            "path_ids": [
+                "222"
+            ],
+            "query": {},
+            "body": {
+                "id": 222,
+                "title": "test_title_46216",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/222",
+            "path_ids": [
+                "222"
+            ],
+            "query": {},
+            "body": {
+                "id": 222,
+                "title": "test_title_3322",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/222",
+            "path_ids": [
+                "222"
+            ],
+            "query": {},
+            "body": {
+                "id": 222,
+                "title": "test_title_8602",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/217",
+            "path_ids": [
+                "217"
+            ],
+            "query": {},
+            "body": {
+                "id": 217,
+                "title": "test_title_50221",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/217",
+            "path_ids": [
+                "217"
+            ],
+            "query": {},
+            "body": {
+                "id": 217,
+                "title": "test_title_33636",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/217",
+            "path_ids": [
+                "217"
+            ],
+            "query": {},
+            "body": {
+                "id": 217,
+                "title": "test_title_69918",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/217",
+            "path_ids": [
+                "217"
+            ],
+            "query": {},
+            "body": {
+                "id": 217,
+                "title": "test_title_99936",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/217",
+            "path_ids": [
+                "217"
+            ],
+            "query": {},
+            "body": {
+                "id": 217,
+                "title": "test_title_88588",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/216",
+            "path_ids": [
+                "216"
+            ],
+            "query": {},
+            "body": {
+                "id": 216,
+                "title": "test_title_40171",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/216",
+            "path_ids": [
+                "216"
+            ],
+            "query": {},
+            "body": {
+                "id": 216,
+                "title": "test_title_41163",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/216",
+            "path_ids": [
+                "216"
+            ],
+            "query": {},
+            "body": {
+                "id": 216,
+                "title": "test_title_3532",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/216",
+            "path_ids": [
+                "216"
+            ],
+            "query": {},
+            "body": {
+                "id": 216,
+                "title": "test_title_65207",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/216",
+            "path_ids": [
+                "216"
+            ],
+            "query": {},
+            "body": {
+                "id": 216,
+                "title": "test_title_78083",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/209",
+            "path_ids": [
+                "209"
+            ],
+            "query": {},
+            "body": {
+                "id": 209,
+                "title": "test_title_64886",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/209",
+            "path_ids": [
+                "209"
+            ],
+            "query": {},
+            "body": {
+                "id": 209,
+                "title": "test_title_27501",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/209",
+            "path_ids": [
+                "209"
+            ],
+            "query": {},
+            "body": {
+                "id": 209,
+                "title": "test_title_84583",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/209",
+            "path_ids": [
+                "209"
+            ],
+            "query": {},
+            "body": {
+                "id": 209,
+                "title": "test_title_79761",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/209",
+            "path_ids": [
+                "209"
+            ],
+            "query": {},
+            "body": {
+                "id": 209,
+                "title": "test_title_73097",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/223",
+            "path_ids": [
+                "223"
+            ],
+            "query": {},
+            "body": {
+                "id": 223,
+                "title": "test_title_93146",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/223",
+            "path_ids": [
+                "223"
+            ],
+            "query": {},
+            "body": {
+                "id": 223,
+                "title": "test_title_31893",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/223",
+            "path_ids": [
+                "223"
+            ],
+            "query": {},
+            "body": {
+                "id": 223,
+                "title": "test_title_81216",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/223",
+            "path_ids": [
+                "223"
+            ],
+            "query": {},
+            "body": {
+                "id": 223,
+                "title": "test_title_12853",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/222",
+            "path_ids": [
+                "222"
+            ],
+            "query": {},
+            "body": {
+                "id": 222,
+                "title": "test_title_34170",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/222",
+            "path_ids": [
+                "222"
+            ],
+            "query": {},
+            "body": {
+                "id": 222,
+                "title": "test_title_95746",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/222",
+            "path_ids": [
+                "222"
+            ],
+            "query": {},
+            "body": {
+                "id": 222,
+                "title": "test_title_99740",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/222",
+            "path_ids": [
+                "222"
+            ],
+            "query": {},
+            "body": {
+                "id": 222,
+                "title": "test_title_37567",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/217",
+            "path_ids": [
+                "217"
+            ],
+            "query": {},
+            "body": {
+                "id": 217,
+                "title": "test_title_19022",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/217",
+            "path_ids": [
+                "217"
+            ],
+            "query": {},
+            "body": {
+                "id": 217,
+                "title": "test_title_41485",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/217",
+            "path_ids": [
+                "217"
+            ],
+            "query": {},
+            "body": {
+                "id": 217,
+                "title": "test_title_76085",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/217",
+            "path_ids": [
+                "217"
+            ],
+            "query": {},
+            "body": {
+                "id": 217,
+                "title": "test_title_34908",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/216",
+            "path_ids": [
+                "216"
+            ],
+            "query": {},
+            "body": {
+                "id": 216,
+                "title": "test_title_72161",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/216",
+            "path_ids": [
+                "216"
+            ],
+            "query": {},
+            "body": {
+                "id": 216,
+                "title": "test_title_56199",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/216",
+            "path_ids": [
+                "216"
+            ],
+            "query": {},
+            "body": {
+                "id": 216,
+                "title": "test_title_56191",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/216",
+            "path_ids": [
+                "216"
+            ],
+            "query": {},
+            "body": {
+                "id": 216,
+                "title": "test_title_36097",
+                "payload": "[]"
+            },
+            "body_kind": "json"
+        }
+    ],
+    "ADMIN|PATCH|http://10.176.36.21:5231/api/user/{id}|b:id,nickname|ct:json": [
+        {
+            "method": "PATCH",
+            "path": "/api/user/1",
+            "path_ids": [
+                "1"
+            ],
+            "query": {},
+            "body": {
+                "id": 1,
+                "nickname": "BACScan@test.com"
+            },
+            "body_kind": "json"
+        }
+    ],
+    "ADMIN|PATCH|http://10.176.36.21:5231/api/user/{id}|b:id,password|ct:json": [
+        {
+            "method": "PATCH",
+            "path": "/api/user/1",
+            "path_ids": [
+                "1"
+            ],
+            "query": {},
+            "body": {
+                "id": 1,
+                "password": "admin"
+            },
+            "body_kind": "json"
+        }
+    ],
+    "ADMIN|PATCH|http://10.176.36.21:5231/api/shortcut/{id}|b:id,rowstatus|ct:json": [
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/219",
+            "path_ids": [
+                "219"
+            ],
+            "query": {},
+            "body": {
+                "id": 219,
+                "rowStatus": "NORMAL"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/217",
+            "path_ids": [
+                "217"
+            ],
+            "query": {},
+            "body": {
+                "id": 217,
+                "rowStatus": "ARCHIVED"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/216",
+            "path_ids": [
+                "216"
+            ],
+            "query": {},
+            "body": {
+                "id": 216,
+                "rowStatus": "ARCHIVED"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/222",
+            "path_ids": [
+                "222"
+            ],
+            "query": {},
+            "body": {
+                "id": 222,
+                "rowStatus": "ARCHIVED"
+            },
+            "body_kind": "json"
+        },
+        {
+            "method": "PATCH",
+            "path": "/api/shortcut/223",
+            "path_ids": [
+                "223"
+            ],
+            "query": {},
+            "body": {
+                "id": 223,
+                "rowStatus": "ARCHIVED"
+            },
+            "body_kind": "json"
+        }
+    ],
+    "ADMIN|DELETE|http://10.176.36.21:5231/api/shortcut/{id}": [
+        {
+            "method": "DELETE",
+            "path": "/api/shortcut/216",
+            "path_ids": [
+                "216"
+            ],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "DELETE",
+            "path": "/api/shortcut/222",
+            "path_ids": [
+                "222"
+            ],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "DELETE",
+            "path": "/api/shortcut/223",
+            "path_ids": [
+                "223"
+            ],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|GET|http://10.176.36.21:5231/|q:tag": [
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "tag": [
+                    "12312312"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "tag": [
+                    "1231231312"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|GET|http://10.176.36.21:5231/|q:shortcutid": [
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "shortcutId": [
+                    "199"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "shortcutId": [
+                    "217"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|GET|http://10.176.36.21:5231/explore": [
+        {
+            "method": "GET",
+            "path": "/explore",
+            "path_ids": [],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|GET|http://10.176.36.21:5231/api/memo": [
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|GET|http://10.176.36.21:5231/|q:text": [
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "text": [
+                    "admin_297"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "text": [
+                    "admin"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|GET|http://10.176.36.21:5231/|q:type|qv:type=NOT_TAGGED": [
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "type": [
+                    "NOT_TAGGED"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|GET|http://10.176.36.21:5231/api/user/{id}": [
+        {
+            "method": "GET",
+            "path": "/api/user/1",
+            "path_ids": [
+                "1"
+            ],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/user/2",
+            "path_ids": [
+                "2"
+            ],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|GET|http://10.176.36.21:5231/api/memo/all": [
+        {
+            "method": "GET",
+            "path": "/api/memo/all",
+            "path_ids": [],
+            "query": {
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo/all",
+            "path_ids": [],
+            "query": {
+                "offset": [
+                    "30"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo/all",
+            "path_ids": [],
+            "query": {
+                "offset": [
+                    "60"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|POST|http://10.176.36.21:5231/api/memo|b:content,resourceidlist,visibility|bv:visibility=PRIVATE|ct:json": [
+        {
+            "method": "POST",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "content": "admin\n- [ ] \n```\n\n```",
+                "visibility": "PRIVATE",
+                "resourceIdList": []
+            },
+            "body_kind": "json"
+        }
+    ],
+    "ADMIN|GET|http://10.176.36.21:5231/|q:type|qv:type=LINKED": [
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "type": [
+                    "LINKED"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|PATCH|http://10.176.36.21:5231/api/user/{id}|b:id|ct:json": [
+        {
+            "method": "PATCH",
+            "path": "/api/user/1",
+            "path_ids": [
+                "1"
+            ],
+            "query": {},
+            "body": {
+                "id": 1
+            },
+            "body_kind": "json"
+        }
+    ],
+    "ADMIN|GET|http://10.176.36.21:5231/u/{id}": [
+        {
+            "method": "GET",
+            "path": "/u/2",
+            "path_ids": [
+                "2"
+            ],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/u/1",
+            "path_ids": [
+                "1"
+            ],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|GET|http://10.176.36.21:5231/api/memo|q:creatorid,rowstatus": [
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "creatorId": [
+                    "2"
+                ],
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/api/memo",
+            "path_ids": [],
+            "query": {
+                "creatorId": [
+                    "1"
+                ],
+                "rowStatus": [
+                    "NORMAL"
+                ],
+                "limit": [
+                    "30"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|GET|http://10.176.36.21:5231/|q:tag,type|qv:type=NOT_TAGGED": [
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "tag": [
+                    "12312312"
+                ],
+                "type": [
+                    "NOT_TAGGED"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|GET|http://10.176.36.21:5231/|q:text,type|qv:type=NOT_TAGGED": [
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "type": [
+                    "NOT_TAGGED"
+                ],
+                "text": [
+                    "admin"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|GET|http://10.176.36.21:5231/|q:shortcutid,type|qv:type=NOT_TAGGED": [
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "type": [
+                    "NOT_TAGGED"
+                ],
+                "shortcutId": [
+                    "199"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "type": [
+                    "NOT_TAGGED"
+                ],
+                "shortcutId": [
+                    "217"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|GET|http://10.176.36.21:5231/|q:shortcutid,text": [
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "text": [
+                    "admin_297"
+                ],
+                "shortcutId": [
+                    "209"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "text": [
+                    "admin"
+                ],
+                "shortcutId": [
+                    "222"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|GET|http://10.176.36.21:5231/|q:text,type|qv:type=LINKED": [
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "type": [
+                    "LINKED"
+                ],
+                "text": [
+                    "admin_297"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "type": [
+                    "LINKED"
+                ],
+                "text": [
+                    "admin"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|GET|http://10.176.36.21:5231/|q:tag,text": [
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "tag": [
+                    "1231231312"
+                ],
+                "text": [
+                    "admin_297"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "tag": [
+                    "3mkQtOLpwv"
+                ],
+                "text": [
+                    "admin"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|GET|http://10.176.36.21:5231/|q:shortcutid,tag": [
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "tag": [
+                    "3mkQtOLpwv"
+                ],
+                "shortcutId": [
+                    "199"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "tag": [
+                    "4kfFStvh6w"
+                ],
+                "shortcutId": [
+                    "217"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|GET|http://10.176.36.21:5231/|q:shortcutid,type|qv:type=LINKED": [
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "type": [
+                    "LINKED"
+                ],
+                "shortcutId": [
+                    "199"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        },
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "type": [
+                    "LINKED"
+                ],
+                "shortcutId": [
+                    "217"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|GET|http://10.176.36.21:5231/|q:tag,type|qv:type=LINKED": [
+        {
+            "method": "GET",
+            "path": "/",
+            "path_ids": [],
+            "query": {
+                "tag": [
+                    "12312312"
+                ],
+                "type": [
+                    "LINKED"
+                ]
+            },
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "USER|PATCH|http://10.176.36.21:5231/api/user/{id}|b:id,username|ct:json": [
+        {
+            "method": "PATCH",
+            "path": "/api/user/3",
+            "path_ids": [
+                "3"
+            ],
+            "query": {},
+            "body": {
+                "id": 3,
+                "username": "BACScan@test.com"
+            },
+            "body_kind": "json"
+        }
+    ],
+    "ADMIN|GET|http://10.176.36.21:5231/auth": [
+        {
+            "method": "GET",
+            "path": "/auth",
+            "path_ids": [],
+            "query": {},
+            "body": null,
+            "body_kind": ""
+        }
+    ],
+    "ADMIN|POST|http://10.176.36.21:5231/api/auth/signin|b:password,username|ct:json": [
+        {
+            "method": "POST",
+            "path": "/api/auth/signin",
+            "path_ids": [],
+            "query": {},
+            "body": {
+                "username": "admin",
+                "password": "admin"
+            },
+            "body_kind": "json"
+        }
+    ],
+    "ADMIN|PATCH|http://10.176.36.21:5231/api/memo/{id}|b:content,id,resourceidlist,visibility|bv:visibility=PRIVATE|ct:json": [
+        {
+            "method": "PATCH",
+            "path": "/api/memo/1018",
+            "path_ids": [
+                "1018"
+            ],
+            "query": {},
+            "body": {
+                "id": 1018,
+                "content": "asaasas",
+                "visibility": "PRIVATE",
+                "resourceIdList": []
+            },
+            "body_kind": "json"
+        }
+    ]
+}

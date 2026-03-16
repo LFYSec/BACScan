@@ -1,0 +1,44 @@
+{
+    "USER|POST|http://10.176.36.21:5231/api/memo|b:content,resourceidlist,visibility|bv:visibility=PRIVATE|ct:json": [
+        "USER|GET|http://10.176.36.21:5231/api/memo|q:rowstatus",
+        "USER|GET|http://10.176.36.21:5231/api/memo"
+    ],
+    "USER|POST|http://10.176.36.21:5231/api/shortcut|b:payload,title|ct:json": [
+        "USER|GET|http://10.176.36.21:5231/api/shortcut"
+    ],
+    "USER|PATCH|http://10.176.36.21:5231/api/shortcut/{id}|b:id,payload,title|ct:json": [
+        "USER|GET|http://10.176.36.21:5231/api/shortcut"
+    ],
+    "USER|PATCH|http://10.176.36.21:5231/api/user/{id}|b:id,username|ct:json": [
+        "USER|GET|http://10.176.36.21:5231/api/user/me",
+        "USER|GET|http://10.176.36.21:5231/api/memo|q:rowstatus",
+        "USER|GET|http://10.176.36.21:5231/api/user/{id}",
+        "USER|GET|http://10.176.36.21:5231/api/memo",
+        "USER|GET|http://10.176.36.21:5231/api/memo/all",
+        "USER|GET|http://10.176.36.21:5231/api/memo|q:creatorid,rowstatus"
+    ],
+    "USER|DELETE|http://10.176.36.21:5231/api/shortcut/{id}": [
+        "USER|GET|http://10.176.36.21:5231/api/shortcut"
+    ],
+    "ADMIN|POST|http://10.176.36.21:5231/api/memo|b:content,resourceidlist,visibility|bv:visibility=PROTECTED|ct:json": [
+        "ADMIN|GET|http://10.176.36.21:5231/api/memo|q:rowstatus",
+        "ADMIN|GET|http://10.176.36.21:5231/api/memo"
+    ],
+    "ADMIN|POST|http://10.176.36.21:5231/api/shortcut|b:payload,title|ct:json": [
+        "ADMIN|GET|http://10.176.36.21:5231/api/shortcut"
+    ],
+    "ADMIN|PATCH|http://10.176.36.21:5231/api/shortcut/{id}|b:id,payload,title|ct:json": [
+        "ADMIN|GET|http://10.176.36.21:5231/api/shortcut"
+    ],
+    "ADMIN|DELETE|http://10.176.36.21:5231/api/shortcut/{id}": [
+        "ADMIN|GET|http://10.176.36.21:5231/api/shortcut"
+    ],
+    "ADMIN|POST|http://10.176.36.21:5231/api/memo|b:content,resourceidlist,visibility|bv:visibility=PRIVATE|ct:json": [
+        "ADMIN|GET|http://10.176.36.21:5231/api/memo|q:rowstatus",
+        "ADMIN|GET|http://10.176.36.21:5231/api/memo"
+    ],
+    "ADMIN|PATCH|http://10.176.36.21:5231/api/memo/{id}|b:content,id,resourceidlist,visibility|bv:visibility=PRIVATE|ct:json": [
+        "ADMIN|GET|http://10.176.36.21:5231/api/memo|q:rowstatus",
+        "ADMIN|GET|http://10.176.36.21:5231/api/memo"
+    ]
+}

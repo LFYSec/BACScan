@@ -1,0 +1,1151 @@
+{
+    "ADMIN|GET|http://10.176.36.21:5231/": {
+        "req_url": "http://10.176.36.21:5231/",
+        "headers": {
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "",
+        "post_params": "",
+        "edges": [
+            "ADMIN|GET|http://10.176.36.21:5231/api/status",
+            "ADMIN|GET|http://10.176.36.21:5231/api/user/me",
+            "ADMIN|GET|http://10.176.36.21:5231/api/memo/stats|q:creatorid",
+            "ADMIN|GET|http://10.176.36.21:5231/api/shortcut",
+            "ADMIN|GET|http://10.176.36.21:5231/api/tag",
+            "ADMIN|GET|http://10.176.36.21:5231/api/memo|q:rowstatus",
+            "ADMIN|GET|http://10.176.36.21:5231/api/resource",
+            "ADMIN|GET|http://10.176.36.21:5231/api/tag/suggestion",
+            "ADMIN|POST|http://10.176.36.21:5231/api/memo|b:content,resourceidlist,visibility|bv:visibility=PROTECTED|ct:json",
+            "ADMIN|POST|http://10.176.36.21:5231/api/shortcut|b:payload,title|ct:json",
+            "ADMIN|PATCH|http://10.176.36.21:5231/api/shortcut/{id}|b:id,payload,title|ct:json",
+            "ADMIN|PATCH|http://10.176.36.21:5231/api/user/{id}|b:id|ct:json",
+            "ADMIN|PATCH|http://10.176.36.21:5231/api/user/{id}|b:id,password|ct:json",
+            "ADMIN|PATCH|http://10.176.36.21:5231/api/shortcut/{id}|b:id,rowstatus|ct:json",
+            "ADMIN|DELETE|http://10.176.36.21:5231/api/shortcut/{id}",
+            "ADMIN|GET|http://10.176.36.21:5231/explore",
+            "ADMIN|GET|http://10.176.36.21:5231/|q:text",
+            "ADMIN|GET|http://10.176.36.21:5231/|q:shortcutid",
+            "ADMIN|GET|http://10.176.36.21:5231/|q:type|qv:type=LINKED",
+            "ADMIN|GET|http://10.176.36.21:5231/|q:tag",
+            "ADMIN|GET|http://10.176.36.21:5231/|q:type|qv:type=NOT_TAGGED"
+        ],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|GET|http://10.176.36.21:5231/",
+        "method": "GET",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [],
+            "query_values": [],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|GET|http://10.176.36.21:5231/api/status": {
+        "req_url": "http://10.176.36.21:5231/api/status",
+        "headers": {
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "referer": "http://10.176.36.21:5231/",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "",
+        "post_params": "",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|GET|http://10.176.36.21:5231/api/status",
+        "method": "GET",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [],
+            "query_values": [],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|GET|http://10.176.36.21:5231/api/user/me": {
+        "req_url": "http://10.176.36.21:5231/api/user/me",
+        "headers": {
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "referer": "http://10.176.36.21:5231/",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "",
+        "post_params": "",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|GET|http://10.176.36.21:5231/api/user/me",
+        "method": "GET",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [],
+            "query_values": [],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|GET|http://10.176.36.21:5231/api/memo/stats|q:creatorid": {
+        "req_url": "http://10.176.36.21:5231/api/memo/stats?creatorId=1",
+        "headers": {
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "referer": "http://10.176.36.21:5231/",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "creatorId=1",
+        "post_params": "",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|GET|http://10.176.36.21:5231/api/memo/stats|q:creatorid",
+        "method": "GET",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [
+                "creatorid"
+            ],
+            "query_values": [],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|GET|http://10.176.36.21:5231/api/shortcut": {
+        "req_url": "http://10.176.36.21:5231/api/shortcut?",
+        "headers": {
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "referer": "http://10.176.36.21:5231/",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "",
+        "post_params": "",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|GET|http://10.176.36.21:5231/api/shortcut",
+        "method": "GET",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [],
+            "query_values": [],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|GET|http://10.176.36.21:5231/api/tag": {
+        "req_url": "http://10.176.36.21:5231/api/tag?",
+        "headers": {
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "referer": "http://10.176.36.21:5231/",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "",
+        "post_params": "",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|GET|http://10.176.36.21:5231/api/tag",
+        "method": "GET",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [],
+            "query_values": [],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|GET|http://10.176.36.21:5231/api/memo|q:rowstatus": {
+        "req_url": "http://10.176.36.21:5231/api/memo?rowStatus=NORMAL&limit=30",
+        "headers": {
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "referer": "http://10.176.36.21:5231/",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "rowStatus=NORMAL&limit=30",
+        "post_params": "",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|GET|http://10.176.36.21:5231/api/memo|q:rowstatus",
+        "method": "GET",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [
+                "rowstatus"
+            ],
+            "query_values": [],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|GET|http://10.176.36.21:5231/api/resource": {
+        "req_url": "http://10.176.36.21:5231/api/resource",
+        "headers": {
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "referer": "http://10.176.36.21:5231/",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "",
+        "post_params": "",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|GET|http://10.176.36.21:5231/api/resource",
+        "method": "GET",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [],
+            "query_values": [],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|GET|http://10.176.36.21:5231/api/tag/suggestion": {
+        "req_url": "http://10.176.36.21:5231/api/tag/suggestion",
+        "headers": {
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "referer": "http://10.176.36.21:5231/",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "",
+        "post_params": "",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|GET|http://10.176.36.21:5231/api/tag/suggestion",
+        "method": "GET",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [],
+            "query_values": [],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|POST|http://10.176.36.21:5231/api/memo|b:content,resourceidlist,visibility|bv:visibility=PROTECTED|ct:json": {
+        "req_url": "http://10.176.36.21:5231/api/memo",
+        "headers": {
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "en-US",
+            "content-type": "application/json",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "referer": "http://10.176.36.21:5231/",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "",
+        "post_params": "{\"content\":\"admin\\n- [ ] \\n```\\n\\n```\",\"visibility\":\"PROTECTED\",\"resourceIdList\":[]}",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|POST|http://10.176.36.21:5231/api/memo|b:content,resourceidlist,visibility|bv:visibility=PROTECTED|ct:json",
+        "method": "POST",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [],
+            "query_values": [],
+            "body_keys": [
+                "content",
+                "resourceidlist",
+                "visibility"
+            ],
+            "body_values": [
+                "visibility=PROTECTED"
+            ],
+            "body_kind": "json"
+        }
+    },
+    "ADMIN|POST|http://10.176.36.21:5231/api/shortcut|b:payload,title|ct:json": {
+        "req_url": "http://10.176.36.21:5231/api/shortcut",
+        "headers": {
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "en-US",
+            "content-type": "application/json",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "referer": "http://10.176.36.21:5231/",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "",
+        "post_params": "{\"title\":\"test_title_90459\",\"payload\":\"[]\"}",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|POST|http://10.176.36.21:5231/api/shortcut|b:payload,title|ct:json",
+        "method": "POST",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [],
+            "query_values": [],
+            "body_keys": [
+                "payload",
+                "title"
+            ],
+            "body_values": [],
+            "body_kind": "json"
+        }
+    },
+    "ADMIN|PATCH|http://10.176.36.21:5231/api/shortcut/{id}|b:id,payload,title|ct:json": {
+        "req_url": "http://10.176.36.21:5231/api/shortcut/219",
+        "headers": {
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "en-US",
+            "content-type": "application/json",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "referer": "http://10.176.36.21:5231/",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "",
+        "post_params": "{\"id\":219,\"title\":\"test_title_90723\",\"payload\":\"[]\"}",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|PATCH|http://10.176.36.21:5231/api/shortcut/{id}|b:id,payload,title|ct:json",
+        "method": "PATCH",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [],
+            "query_values": [],
+            "body_keys": [
+                "id",
+                "payload",
+                "title"
+            ],
+            "body_values": [],
+            "body_kind": "json"
+        }
+    },
+    "ADMIN|PATCH|http://10.176.36.21:5231/api/user/{id}|b:id|ct:json": {
+        "req_url": "http://10.176.36.21:5231/api/user/1",
+        "headers": {
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "en-US",
+            "content-type": "application/json",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "referer": "http://10.176.36.21:5231/",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "",
+        "post_params": "{\"id\":1}",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|PATCH|http://10.176.36.21:5231/api/user/{id}|b:id|ct:json",
+        "method": "PATCH",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [],
+            "query_values": [],
+            "body_keys": [
+                "id"
+            ],
+            "body_values": [],
+            "body_kind": "json"
+        }
+    },
+    "ADMIN|PATCH|http://10.176.36.21:5231/api/user/{id}|b:id,password|ct:json": {
+        "req_url": "http://10.176.36.21:5231/api/user/1",
+        "headers": {
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "en-US",
+            "content-type": "application/json",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "referer": "http://10.176.36.21:5231/",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "",
+        "post_params": "{\"id\":1,\"password\":\"admin\"}",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|PATCH|http://10.176.36.21:5231/api/user/{id}|b:id,password|ct:json",
+        "method": "PATCH",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [],
+            "query_values": [],
+            "body_keys": [
+                "id",
+                "password"
+            ],
+            "body_values": [],
+            "body_kind": "json"
+        }
+    },
+    "ADMIN|PATCH|http://10.176.36.21:5231/api/shortcut/{id}|b:id,rowstatus|ct:json": {
+        "req_url": "http://10.176.36.21:5231/api/shortcut/219",
+        "headers": {
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "en-US",
+            "content-type": "application/json",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "referer": "http://10.176.36.21:5231/",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "",
+        "post_params": "{\"id\":219,\"rowStatus\":\"ARCHIVED\"}",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|PATCH|http://10.176.36.21:5231/api/shortcut/{id}|b:id,rowstatus|ct:json",
+        "method": "PATCH",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [],
+            "query_values": [],
+            "body_keys": [
+                "id",
+                "rowstatus"
+            ],
+            "body_values": [],
+            "body_kind": "json"
+        }
+    },
+    "ADMIN|DELETE|http://10.176.36.21:5231/api/shortcut/{id}": {
+        "req_url": "http://10.176.36.21:5231/api/shortcut/219",
+        "headers": {
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "referer": "http://10.176.36.21:5231/",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "",
+        "post_params": "",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|DELETE|http://10.176.36.21:5231/api/shortcut/{id}",
+        "method": "DELETE",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [],
+            "query_values": [],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|GET|http://10.176.36.21:5231/|q:text": {
+        "req_url": "http://10.176.36.21:5231/?text=admin",
+        "headers": {
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "text=admin",
+        "post_params": "",
+        "edges": [
+            "ADMIN|GET|http://10.176.36.21:5231/|q:text,type|qv:type=NOT_TAGGED",
+            "ADMIN|GET|http://10.176.36.21:5231/|q:text,type|qv:type=LINKED",
+            "ADMIN|GET|http://10.176.36.21:5231/|q:tag,text",
+            "ADMIN|GET|http://10.176.36.21:5231/|q:shortcutid,text"
+        ],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|GET|http://10.176.36.21:5231/|q:text",
+        "method": "GET",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [
+                "text"
+            ],
+            "query_values": [],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|GET|http://10.176.36.21:5231/|q:type|qv:type=LINKED": {
+        "req_url": "http://10.176.36.21:5231/?type=LINKED",
+        "headers": {
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "type=LINKED",
+        "post_params": "",
+        "edges": [
+            "ADMIN|GET|http://10.176.36.21:5231/|q:tag,type|qv:type=LINKED"
+        ],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|GET|http://10.176.36.21:5231/|q:type|qv:type=LINKED",
+        "method": "GET",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [
+                "type"
+            ],
+            "query_values": [
+                "type=LINKED"
+            ],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|GET|http://10.176.36.21:5231/|q:tag": {
+        "req_url": "http://10.176.36.21:5231/?tag=1231231312",
+        "headers": {
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "tag=1231231312",
+        "post_params": "",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|GET|http://10.176.36.21:5231/|q:tag",
+        "method": "GET",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [
+                "tag"
+            ],
+            "query_values": [],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|GET|http://10.176.36.21:5231/|q:shortcutid": {
+        "req_url": "http://10.176.36.21:5231/?shortcutId=217",
+        "headers": {
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "shortcutId=217",
+        "post_params": "",
+        "edges": [
+            "ADMIN|POST|http://10.176.36.21:5231/api/memo|b:content,resourceidlist,visibility|bv:visibility=PRIVATE|ct:json",
+            "ADMIN|GET|http://10.176.36.21:5231/|q:shortcutid,type|qv:type=NOT_TAGGED",
+            "ADMIN|GET|http://10.176.36.21:5231/|q:shortcutid,tag",
+            "ADMIN|GET|http://10.176.36.21:5231/|q:shortcutid,type|qv:type=LINKED"
+        ],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|GET|http://10.176.36.21:5231/|q:shortcutid",
+        "method": "GET",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [
+                "shortcutid"
+            ],
+            "query_values": [],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|GET|http://10.176.36.21:5231/api/shortcut/{id}": {
+        "req_url": "http://10.176.36.21:5231/api/shortcut/219",
+        "headers": {
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "",
+        "post_params": "",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|GET|http://10.176.36.21:5231/api/shortcut/{id}",
+        "method": "GET",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [],
+            "query_values": [],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|GET|http://10.176.36.21:5231/api/memo": {
+        "req_url": "http://10.176.36.21:5231/api/memo",
+        "headers": {
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "",
+        "post_params": "",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|GET|http://10.176.36.21:5231/api/memo",
+        "method": "GET",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [],
+            "query_values": [],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|GET|http://10.176.36.21:5231/api/user/{id}": {
+        "req_url": "http://10.176.36.21:5231/api/user/1",
+        "headers": {
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "",
+        "post_params": "",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|GET|http://10.176.36.21:5231/api/user/{id}",
+        "method": "GET",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [],
+            "query_values": [],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|GET|http://10.176.36.21:5231/|q:type|qv:type=NOT_TAGGED": {
+        "req_url": "http://10.176.36.21:5231/?type=NOT_TAGGED",
+        "headers": {
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "type=NOT_TAGGED",
+        "post_params": "",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|GET|http://10.176.36.21:5231/|q:type|qv:type=NOT_TAGGED",
+        "method": "GET",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [
+                "type"
+            ],
+            "query_values": [
+                "type=NOT_TAGGED"
+            ],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|GET|http://10.176.36.21:5231/explore": {
+        "req_url": "http://10.176.36.21:5231/explore",
+        "headers": {
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "",
+        "post_params": "",
+        "edges": [
+            "ADMIN|GET|http://10.176.36.21:5231/api/memo/all",
+            "ADMIN|GET|http://10.176.36.21:5231/auth",
+            "ADMIN|GET|http://10.176.36.21:5231/u/{id}"
+        ],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|GET|http://10.176.36.21:5231/explore",
+        "method": "GET",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [],
+            "query_values": [],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|GET|http://10.176.36.21:5231/api/memo/all": {
+        "req_url": "http://10.176.36.21:5231/api/memo/all?limit=30",
+        "headers": {
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "referer": "http://10.176.36.21:5231/explore",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "limit=30",
+        "post_params": "",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|GET|http://10.176.36.21:5231/api/memo/all",
+        "method": "GET",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [],
+            "query_values": [],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|POST|http://10.176.36.21:5231/api/memo|b:content,resourceidlist,visibility|bv:visibility=PRIVATE|ct:json": {
+        "req_url": "http://10.176.36.21:5231/api/memo",
+        "headers": {
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "en-US",
+            "content-type": "application/json",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "referer": "http://10.176.36.21:5231/?shortcutId=217",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "",
+        "post_params": "{\"content\":\"admin\\n- [ ] \\n```\\n\\n```\",\"visibility\":\"PRIVATE\",\"resourceIdList\":[]}",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|POST|http://10.176.36.21:5231/api/memo|b:content,resourceidlist,visibility|bv:visibility=PRIVATE|ct:json",
+        "method": "POST",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [],
+            "query_values": [],
+            "body_keys": [
+                "content",
+                "resourceidlist",
+                "visibility"
+            ],
+            "body_values": [
+                "visibility=PRIVATE"
+            ],
+            "body_kind": "json"
+        }
+    },
+    "ADMIN|GET|http://10.176.36.21:5231/auth": {
+        "req_url": "http://10.176.36.21:5231/auth",
+        "headers": {
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "",
+        "post_params": "",
+        "edges": [
+            "ADMIN|POST|http://10.176.36.21:5231/api/auth/signin|b:password,username|ct:json"
+        ],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|GET|http://10.176.36.21:5231/auth",
+        "method": "GET",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [],
+            "query_values": [],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|GET|http://10.176.36.21:5231/u/{id}": {
+        "req_url": "http://10.176.36.21:5231/u/1",
+        "headers": {
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "",
+        "post_params": "",
+        "edges": [
+            "ADMIN|GET|http://10.176.36.21:5231/api/memo|q:creatorid,rowstatus",
+            "ADMIN|GET|http://10.176.36.21:5231/"
+        ],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|GET|http://10.176.36.21:5231/u/{id}",
+        "method": "GET",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [],
+            "query_values": [],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|GET|http://10.176.36.21:5231/api/memo|q:creatorid,rowstatus": {
+        "req_url": "http://10.176.36.21:5231/api/memo?creatorId=1&rowStatus=NORMAL&limit=30",
+        "headers": {
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "referer": "http://10.176.36.21:5231/u/1",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "creatorId=1&rowStatus=NORMAL&limit=30",
+        "post_params": "",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|GET|http://10.176.36.21:5231/api/memo|q:creatorid,rowstatus",
+        "method": "GET",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [
+                "creatorid",
+                "rowstatus"
+            ],
+            "query_values": [],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|POST|http://10.176.36.21:5231/api/auth/signin|b:password,username|ct:json": {
+        "req_url": "http://10.176.36.21:5231/api/auth/signin",
+        "headers": {
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "en-US",
+            "content-type": "application/json",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "referer": "http://10.176.36.21:5231/auth",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "",
+        "post_params": "{\"username\":\"admin\",\"password\":\"admin\"}",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|POST|http://10.176.36.21:5231/api/auth/signin|b:password,username|ct:json",
+        "method": "POST",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [],
+            "query_values": [],
+            "body_keys": [
+                "password",
+                "username"
+            ],
+            "body_values": [],
+            "body_kind": "json"
+        }
+    },
+    "ADMIN|GET|http://10.176.36.21:5231/|q:shortcutid,text": {
+        "req_url": "http://10.176.36.21:5231/?text=admin&shortcutId=222",
+        "headers": {
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "text=admin&shortcutId=222",
+        "post_params": "",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|GET|http://10.176.36.21:5231/|q:shortcutid,text",
+        "method": "GET",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [
+                "shortcutid",
+                "text"
+            ],
+            "query_values": [],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|GET|http://10.176.36.21:5231/|q:text,type|qv:type=NOT_TAGGED": {
+        "req_url": "http://10.176.36.21:5231/?type=NOT_TAGGED&text=admin",
+        "headers": {
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "type=NOT_TAGGED&text=admin",
+        "post_params": "",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|GET|http://10.176.36.21:5231/|q:text,type|qv:type=NOT_TAGGED",
+        "method": "GET",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [
+                "text",
+                "type"
+            ],
+            "query_values": [
+                "type=NOT_TAGGED"
+            ],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|GET|http://10.176.36.21:5231/|q:tag,text": {
+        "req_url": "http://10.176.36.21:5231/?tag=3mkQtOLpwv&text=admin",
+        "headers": {
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "tag=3mkQtOLpwv&text=admin",
+        "post_params": "",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|GET|http://10.176.36.21:5231/|q:tag,text",
+        "method": "GET",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [
+                "tag",
+                "text"
+            ],
+            "query_values": [],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|GET|http://10.176.36.21:5231/|q:text,type|qv:type=LINKED": {
+        "req_url": "http://10.176.36.21:5231/?type=LINKED&text=admin",
+        "headers": {
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "type=LINKED&text=admin",
+        "post_params": "",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|GET|http://10.176.36.21:5231/|q:text,type|qv:type=LINKED",
+        "method": "GET",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [
+                "text",
+                "type"
+            ],
+            "query_values": [
+                "type=LINKED"
+            ],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|GET|http://10.176.36.21:5231/|q:shortcutid,tag": {
+        "req_url": "http://10.176.36.21:5231/?tag=4kfFStvh6w&shortcutId=217",
+        "headers": {
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "tag=4kfFStvh6w&shortcutId=217",
+        "post_params": "",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|GET|http://10.176.36.21:5231/|q:shortcutid,tag",
+        "method": "GET",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [
+                "shortcutid",
+                "tag"
+            ],
+            "query_values": [],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|GET|http://10.176.36.21:5231/|q:shortcutid,type|qv:type=LINKED": {
+        "req_url": "http://10.176.36.21:5231/?type=LINKED&shortcutId=217",
+        "headers": {
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "type=LINKED&shortcutId=217",
+        "post_params": "",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|GET|http://10.176.36.21:5231/|q:shortcutid,type|qv:type=LINKED",
+        "method": "GET",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [
+                "shortcutid",
+                "type"
+            ],
+            "query_values": [
+                "type=LINKED"
+            ],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|GET|http://10.176.36.21:5231/|q:shortcutid,type|qv:type=NOT_TAGGED": {
+        "req_url": "http://10.176.36.21:5231/?type=NOT_TAGGED&shortcutId=217",
+        "headers": {
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "type=NOT_TAGGED&shortcutId=217",
+        "post_params": "",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|GET|http://10.176.36.21:5231/|q:shortcutid,type|qv:type=NOT_TAGGED",
+        "method": "GET",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [
+                "shortcutid",
+                "type"
+            ],
+            "query_values": [
+                "type=NOT_TAGGED"
+            ],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|GET|http://10.176.36.21:5231/|q:tag,type|qv:type=LINKED": {
+        "req_url": "http://10.176.36.21:5231/?tag=12312312&type=LINKED",
+        "headers": {
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "accept-language": "en-US",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+        },
+        "get_params": "tag=12312312&type=LINKED",
+        "post_params": "",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|GET|http://10.176.36.21:5231/|q:tag,type|qv:type=LINKED",
+        "method": "GET",
+        "operation": "SELECT",
+        "param_signature": {
+            "query_keys": [
+                "tag",
+                "type"
+            ],
+            "query_values": [
+                "type=LINKED"
+            ],
+            "body_keys": [],
+            "body_values": [],
+            "body_kind": ""
+        }
+    },
+    "ADMIN|PATCH|http://10.176.36.21:5231/api/memo/{id}|b:content,id,resourceidlist,visibility|bv:visibility=PRIVATE|ct:json": {
+        "req_url": "http://10.176.36.21:5231/api/memo/1018",
+        "headers": {
+            "host": "10.176.36.21:5231",
+            "content-length": "74",
+            "accept": "application/json, text/plain, */*",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.95 Safari/537.36",
+            "content-type": "application/json",
+            "origin": "http://10.176.36.21:5231",
+            "referer": "http://10.176.36.21:5231/",
+            "accept-encoding": "gzip, deflate",
+            "accept-language": "zh-CN,zh;q=0.9",
+            "cookie": "memos_session=MTc3MzUwMDYxMXxEdi1EQkFFQ180UUFBUkFCRUFBQUh2LUVBQUVHYzNSeWFXNW5EQWtBQjNWelpYSXRhV1FEYVc1MEJBSUFBZz09fHgh3hHLIJ7b_8rEpIwetThm2T3UA_URHOgSgZqat0pK",
+            "connection": "close"
+        },
+        "get_params": "",
+        "post_params": "{\"id\":1018,\"content\":\"asaasas\",\"visibility\":\"PRIVATE\",\"resourceIdList\":[]}",
+        "edges": [],
+        "role": "admin",
+        "public": false,
+        "es_id": "ADMIN|PATCH|http://10.176.36.21:5231/api/memo/{id}|b:content,id,resourceidlist,visibility|bv:visibility=PRIVATE|ct:json",
+        "method": "PATCH",
+        "operation": "UPDATE",
+        "param_signature": {
+            "query_keys": [],
+            "query_values": [],
+            "body_keys": [
+                "content",
+                "id",
+                "resourceidlist",
+                "visibility"
+            ],
+            "body_values": [
+                "visibility=PRIVATE"
+            ],
+            "body_kind": "json"
+        }
+    }
+}
