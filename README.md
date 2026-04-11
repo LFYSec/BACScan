@@ -195,9 +195,10 @@ Example (`operation_node -> dependent_get_nodes`):
   ]
 }
 ```
-## NOTE: `add_node.py` (manual request backfill)
 
-Use this script only when crawler missed a request and you already have the raw HTTP request text.
+## NOTE
+
+The crawling component is treated as an independent work and will be open-sourced separately. As a result, the crawler currently used in BACScan is a simplified version. For the false negatives caused by limited crawler coverage, we use `add_node.py` to manually backfill missed requests and supplement the IDDG. Usage is as follows:
 
 1. Optional: set CMS:
 
